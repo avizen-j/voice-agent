@@ -6,7 +6,8 @@ const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const { setupSTT } = require("./stt/deepgram-stt");
+//const { setupSTT } = require("./stt/deepgram-stt");
+const { setupSTT } = require('./stt/google-stt');
 const { setupTTS } = require("./tts/deepgram-tts");
 const { promptLLM } = require("./llm/openai-llm");
 
