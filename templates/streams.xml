@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+  <Say>Connecting you to the voice agent...</Say>
+  <Connect>
+    <Stream url="wss://6120-78-63-95-55.ngrok-free.app/streams"/>
+  </Connect>
+  <Pause length="60"/>
+</Response>
